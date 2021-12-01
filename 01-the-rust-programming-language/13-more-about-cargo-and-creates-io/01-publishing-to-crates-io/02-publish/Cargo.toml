@@ -1,0 +1,19 @@
+[package]
+name = "publish"
+version = "0.1.0"
+edition = "2021"
+
+#== Other must needs info ======================================================
+description = ""
+
+license = "" # license identifier value, http://spdx.org/licenses/
+#or
+license-file = "./file-name"
+
+# Multiple license with `OR`
+license = "MIT OR Apache-2.0"
+
+#==============================================================================
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
