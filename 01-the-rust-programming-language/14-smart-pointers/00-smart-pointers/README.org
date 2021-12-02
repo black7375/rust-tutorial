@@ -1,0 +1,14 @@
+* Smart Pointer
+
+Work like pointer, have meta data and features.
+
+- =String=, =Vec<T>= is smart pointer!!
+- Implement with Struct and =Deref=, =Drop= trait
+  - =Deref=: Pointer struct's instance work like reference
+  - =Drop=: Scope out behavior
+- Kinds
+  - =Box<T>=: Allocate at heap
+  - =Rc<T>=: Multiple ownership with refence counting
+  - =RefCell<T>=: Borrow rules for runtime
+  - =Ref<T>=: Accecess =RefCell<T>='s immutable
+  - =RefMut<T>=: Access =RefCell<T>='s mutable
